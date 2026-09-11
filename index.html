@@ -1,38 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Appointment Management System</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+<section id="doctor-section">
+    <h3>Doctor Management</h3>
 
-<body>
+    <form id="doctorForm">
+        <input type="text" id="doctorName" placeholder="Doctor Name" required>
+        <input type="text" id="specialization"
+               placeholder="Specialization" required>
 
-    <header>
-        <h1>Hospital Appointment Management System</h1>
-    </header>
+        <button type="submit">Add Doctor</button>
+    </form>
 
-    <main>
-        <h2>Hospital Management Dashboard</h2>
-
-        <section id="patient-section">
-            <h3>Patient Registration</h3>
-        </section>
-
-        <section id="doctor-section">
-            <h3>Doctor Management</h3>
-        </section>
-
-        <section id="appointment-section">
-            <h3>Appointment Scheduling</h3>
-        </section>
-
-        <section id="history-section">
-            <h3>Appointment History</h3>
-        </section>
-    </main>
-
-    <script src="js/app.js"></script>
-</body>
-</html>
+    <ul id="doctorList"></ul>
+</section>
