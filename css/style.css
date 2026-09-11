@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+input,
+button {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
